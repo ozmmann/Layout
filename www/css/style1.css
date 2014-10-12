@@ -1,0 +1,185 @@
+p {
+    margin: 20px 0;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+
+body.wrapper { width: 70%; }
+
+body.wrapper header {
+    padding: 20px 0;
+}
+
+body.wrapper header.sign-buttons {
+    display: inline-block !important;
+    vertical-align: bottom !important;
+}
+
+
+body.wrapper header.sign-buttons.sign-in {
+    background-color: #44938E;
+}
+
+body.wrapper header.sign-buttons.sign-up {
+    background-color: #E4B21A;
+}
+
+body.wrapper p {
+    text-align: center;
+    font-size: 23px;
+}
+
+body.wrapper .order-process {
+    text-align: center;
+}
+
+body.wrapper .order-process h2 {
+    font-size: 35px;
+}
+
+body.wrapper .order-process .row {
+    padding-top: 10px;
+}
+
+body.wrapper .order-process .row .order-element {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 194px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    list-style-type: none;
+    padding: 5pt;
+    padding-left: 10pt;
+    line-height: 20pt;
+    height: 88px;
+    margin: 10px 0;
+}
+
+body.wrapper .order-process .row .order-element:after {
+    content: "";
+    border-left: 31px solid;
+    border-top: 45px solid transparent;
+    border-bottom: 43px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -31px;
+    top: 0;
+}
+
+body.wrapper .order-process .row .elem1 {
+    background-color: #59C4BC;
+}
+
+body.wrapper .order-process .row .elem1:after {
+    border-left-color: #59C4BC;
+}
+
+body.wrapper .order-process .row .elem2 {
+    background-color: #E4B21A;
+}
+
+body.wrapper .order-process .row .elem2:after {
+    border-left-color: #E4B21A;
+}
+
+body.wrapper .order-process .row .elem3 {
+    background-color: #59C4BC;
+}
+body.wrapper .order-process .row .elem3:after {
+    border-left-color: #59C4BC;
+}
+
+body.wrapper .order-process .row .elem4 {
+    background-color: #E4B21A;
+}
+body.wrapper .order-process .row .elem4:after {
+    border-left-color: #E4B21A;
+}
+
+body.wrapper .order-process .row .clock-text{
+    font-size: 18px;
+    color:#44928C;
+    width: 25%;
+    display: inline-block;
+}
+
+body .main-background {
+    display: block;
+    background: url(../images/city-background.png);
+    width: 100%;
+    height: 737px;
+    padding-top: 12px;
+}
+
+body .main-background h1,
+body .main-background h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+body .main-background h1{
+    font-size: 55px;
+    margin-top: 77px;
+}
+
+body .main-background h2{
+    font-size: 44px;
+    margin-bottom: 60px;
+}
+
+body .main-background .chevron {
+    text-align: center;
+}
+
+body .main-background .chevron img{
+    padding:0 10px;
+}
+
+body .main-background .chevron .row1{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+body .main-background .chevron .or{
+    font-size: 20px;
+    color: white;
+}
+
+body .order-process.order-element{
+    padding: 15px;
+}
+
+.background-grey {
+    display: block;
+    background-color: #EAEDF1;
+    width: 100%;
+    height: 620px;
+    padding-top: 12px;
+}
+
+.background-grey h1,
+.background-grey h2 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.background-grey .background-grey :before{
+    width: 0;
+    height: 0;
+/*//    border-style: solid;*/
+/*//    border-width: 173.2px 100px 0 100px;*/
+/*//    border-color: red transparent transparent transparent;*/
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+}
+
